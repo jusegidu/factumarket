@@ -15,7 +15,7 @@
    3. Comunicación: síncrona vs asíncrona y cómo garantizar consistencia  
    4. Estrategia de persistencia (Oracle / NoSQL)  
    5. Principios aplicados: Microservicios, Clean Architecture, MVC  
-   6. Diagrama de alto nivel  
+     
 3. [Lista de software requerido y versiones recomendadas](#lista-de-software-requerido-y-versiones-recomendadas)  
 4. [Instalación completa en Windows 11 vía WSL (Ubuntu 22.04) — pasos sin omisiones](#instalaci%C3%B3n-completa-en-windows-11-v%C3%ADa-wsl-ubuntu-2204---pasos-sin-omisiones)  
 5. [Arrancar el proyecto en local (comandos)](#arrancar-el-proyecto-en-local-comandos)  
@@ -144,11 +144,7 @@ Regla: dependencias apuntan hacia adentro; dominio no depende de frameworks.
 
 ---
 
-### 6) Diagrama de alto nivel
 
-Se proporciona en el README principal (ver sección "Diagrama de alto nivel"). El diagrama muestra:
-- Infra: RabbitMQ/Kafka, Oracle, Mongo, DIAN.
-- Servicios: Clientes, Facturas, Auditoría con sus componentes internos (Controllers, Use Cases, Domain, Repos, Publishers/Consumers).
 
 ---
 
